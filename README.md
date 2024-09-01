@@ -23,4 +23,4 @@
 
 ### Задание 3
 
-https://github.com/Stadnik-A/git_homework/network
+
