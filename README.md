@@ -1,20 +1,23 @@
-# Домашнее задание к занятию «Git» - `Станик Александр`
+# Домашнее задание к занятию «Что такое DevOps. СI/СD» - `Станик Александр`
 
 
 ### Задание 1
 
-Ссылка на репозиторий: https://github.com/Stadnik-A/git_homework.git
+![image](https://github.com/user-attachments/assets/0f3ac9f4-5593-4513-b9f1-5ced35dcda61)
+![image](https://github.com/user-attachments/assets/41a616cd-0616-4b33-a358-35e4e6ae8054)
+![image](https://github.com/user-attachments/assets/5bdf038b-ff78-4d74-b86e-5c2833f39f1e)
 
-Ссылка на коммит: commit c28a163f561b2f3772940a199170c4a3be2dc410 (HEAD -> main, origin/main, origin/HEAD)
-https://github.com/Stadnik-A/git_homework/commit/c28a163f561b2f3772940a199170c4a3be2dc410
+
+
 
 
 ---
 
 ### Задание 2
+![image](https://github.com/user-attachments/assets/fa628246-c34c-4977-92b0-5953f433013d)
 
-Ссылка на коммит: commit ab27e165c8e0c202c2d6e16e873d1fa17d1ef7d9 (HEAD -> main, origin/main, origin/HEAD)
-https://github.com/Stadnik-A/git_homework/commit/ab27e165c8e0c202c2d6e16e873d1fa17d1ef7d9
+![image](https://github.com/user-attachments/assets/396331a9-ca15-419a-bcc5-84ba76e9ede4)
+
 
 ---
 
