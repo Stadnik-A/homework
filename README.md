@@ -22,5 +22,10 @@
 ---
 
 ### Задание 3
+![image](https://github.com/user-attachments/assets/fc652186-daf6-4c8b-97af-092eccdf7b83)
+![image](https://github.com/user-attachments/assets/4e79d5d3-15a4-49f0-9c5c-8350395ca1ec)
+
+
+
 
 
