@@ -1,8 +1,9 @@
-# Домашнее задание к занятию «GСистема мониторинга Zabbix» - `Станик Александр`
+# Домашнее задание к занятию 1 «Disaster recovery и Keepalived» - `Станик Александр`
 
 
 ### Задание 1
-![image](https://github.com/user-attachments/assets/417f51dd-fcb6-4fed-9eb1-e257f70a3419)
+![image](https://github.com/user-attachments/assets/9fb75621-9567-473d-a2d0-61102f9af07a)
+
 
 
 
