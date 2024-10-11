@@ -1,20 +1,20 @@
-# Домашнее задание к занятию 1 «Disaster recovery и Keepalived» - `Станик Александр`
+# Домашнее задание к занятию 2 «Кластеризация и балансировка нагрузки» - `Станик Александр`
 
 
 ### Задание 1
-![image](https://github.com/user-attachments/assets/9fb75621-9567-473d-a2d0-61102f9af07a)
+Конфиг
+![image](https://github.com/user-attachments/assets/1b997ac1-47fb-44d4-8367-7be81b828b5e)
 
+Распределение 
+![image](https://github.com/user-attachments/assets/13e131ea-1eed-4d27-b9f9-088f9989eb6a)
 
-
+Конфиг nginx
+![image](https://github.com/user-attachments/assets/f23962b9-39b2-48c8-ab9f-ef2ab24ae9b6)
 
 ---
 
 ### Задание 2 
-Адрес длярезервирования выбран 192.168.20.15
-первый сервер со скриптом
-![image](https://github.com/user-attachments/assets/7e16d625-c6f1-4aac-a310-2dc7dbfba2c4)
-второй сервер BACKUP
-![image](https://github.com/user-attachments/assets/3a32d05b-9f92-4e4f-b4c3-fc7df009dd30)
+
 
 
 
