@@ -1,25 +1,28 @@
-# Домашнее задание к занятию 2 «Кластеризация и балансировка нагрузки» - `Станик Александр`
+# Домашнее задание к занятию 3 «Резервное копирование» - `Станик Александр`
 
 
 ### Задание 1
-Конфиг
-![image](https://github.com/user-attachments/assets/aa383bdd-7b1c-44b8-a52c-ff8bd12d9c41)
+Команда
+rsync -a --progress --exclude='.*' --checksum ~/ /tmp/backup/
 
 
-Распределение 
-![image](https://github.com/user-attachments/assets/13e131ea-1eed-4d27-b9f9-088f9989eb6a)
+Результат выполнения 
+![image](https://github.com/user-attachments/assets/f5f43169-b354-4b0f-83e1-481be8ec2403)
+
 
 
 
 ---
 
 ### Задание 2 
-Конфиг
-![image](https://github.com/user-attachments/assets/37cdeab5-2159-49f7-9b83-3f35695d49c5)
+Crontab
+![image](https://github.com/user-attachments/assets/c4524d34-1c3c-440b-80b8-c57c4ad6517c)
 
 
-Распределение на 7 уровне с весами
-![image](https://github.com/user-attachments/assets/fddaa4cc-4c1d-44c9-acd5-fa6d4fd4d1ef)
+
+Результат
+![image](https://github.com/user-attachments/assets/a40eba73-03f0-4d25-8f14-b13942e57980)
+
 
 
 
