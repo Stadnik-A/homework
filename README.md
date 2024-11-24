@@ -1,10 +1,10 @@
-# Домашнее задание к занятию 3 «ELK» - `Станик Александр`
+# Домашнее задание к занятию «Очереди RabbitMQ» - `Станик Александр`
 
 ### Задание 1
-![image](https://github.com/user-attachments/assets/24ba3878-b91f-4fd1-adef-e9f36237163f)
+![image](https://github.com/user-attachments/assets/2f0e792d-5397-442c-9013-a3a04faadb8f)
+
 
 ### Задание 2 
-![image](https://github.com/user-attachments/assets/2827896e-acbe-4120-b511-82f2ba67aedc)
 
 ### Задание 3
 
