@@ -10,5 +10,7 @@
 ![image](https://github.com/user-attachments/assets/586b74f5-cdc8-4b37-8bcf-38ab0991b2fc)
 
 ### Задание 3
+![image](https://github.com/user-attachments/assets/de3e72db-9b45-4487-bfb1-cec4e01c6779)
+![image](https://github.com/user-attachments/assets/9b322fa7-0d37-4e9c-90cc-6fa599398326)
 
 
