@@ -12,8 +12,7 @@
 
   Размер зарплаты 
   - идентификатор integer PRIMARY KEY
-  - идентификатор пользователя integer,
-  - размер зарплаты integer
+  - размер зарплаты numeric
 
   Проекты
   - идентификатор integer PRIMARY KEY
@@ -23,10 +22,12 @@
   - идентификатор integer PRIMARY KEY
   - название должности varchar(50)
  
-  Сотрудники"
+  Сотрудники
   - идентификатор integer PRIMARY KEY
-  - ФИО varchar(50)
-  - Дата прихода date
+  - фамилия varchar(50)
+  - имя varchar(50)
+  - отчество varchar(50)
+  - дата прихода date
   - идентификатор проекта integer
   - идентификатор департамента integer
   - идентификатор филиалда integer
