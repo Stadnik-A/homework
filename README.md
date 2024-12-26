@@ -1,35 +1,7 @@
 # Домашнее задание к занятию «Базы данных» - `Станик Александр`
 
 ### Задание 1
-  Тип департамента 
-  - идентификатор integer PRIMARY KEY
-  - название департамента varchar(50)
-  
-  Филиалы
-  - идентификатор integer PRIMARY KEY
-  - название филиала varchar(50)
-  - адрес филиала varchar(50)
+Список пользователей
+  ![image](https://github.com/user-attachments/assets/14026159-23a1-4e94-bbf9-bdcadef944a7)
 
-  Размер зарплаты 
-  - идентификатор integer PRIMARY KEY
-  - размер зарплаты numeric
 
-  Проекты
-  - идентификатор integer PRIMARY KEY
-  - название проекта varchar(50)
-  
-  Должность
-  - идентификатор integer PRIMARY KEY
-  - название должности varchar(50)
- 
-  Сотрудники
-  - идентификатор integer PRIMARY KEY
-  - фамилия varchar(50)
-  - имя varchar(50)
-  - отчество varchar(50)
-  - дата прихода date
-  - идентификатор проекта integer
-  - идентификатор департамента integer
-  - идентификатор филиалда integer
-  - идентификатор должности integer
-  - идентификатор зарплаты integer
