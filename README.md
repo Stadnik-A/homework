@@ -5,7 +5,9 @@
 
 ### Задание 2
 
-![image](https://github.com/user-attachments/assets/8e8d9bed-85ec-4665-a591-5e8cf59c1ee7)
+![image](https://github.com/user-attachments/assets/f7f2a03f-8b18-475b-aeb8-e1be97ba70e7)
+или
+![image](https://github.com/user-attachments/assets/09eab3d9-e580-4800-8006-b938753e9988)
 
 ### Задание 3
 
