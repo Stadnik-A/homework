@@ -1,14 +1,24 @@
-# Домашнее задание к занятию «SQL. Часть 2» - `Станик Александр`
+# Домашнее задание к занятию «Индексы» - `Станик Александр`
 
 ### Задание 1
-![image](https://github.com/user-attachments/assets/4c98113a-7bd0-48d2-a9b9-a2742edfa667)
+explain analyze
+select distinct concat(c.last_name, ' ', c.first_name), sum(p.amount) over (partition by c.customer_id, f.title)
+from payment p, rental r, customer c, inventory i, film f
+where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and r.customer_id = c.customer_id and i.inventory_id = r.inventory_id
+
+![image](https://github.com/user-attachments/assets/c31f4e22-4711-453a-a5fe-6c14fc27539b)
 
 ### Задание 2
-![image](https://github.com/user-attachments/assets/e00fc213-c200-41e8-98b8-a5f472cf9449)
+explain analyze
+select distinct 
+    concat(c.last_name, ' ', c.first_name) as customer_name,
+    sum(p.amount) over (partition by c.customer_id) as total_amount
+from payment p
+join rental r on p.payment_date = r.rental_date
+join customer c on r.customer_id = c.customer_id
+join inventory i on r.inventory_id = i.inventory_id
+join film f on i.film_id = f.film_id
+where p.payment_date >= '2005-07-30' and p.payment_date < '2005-07-31';
 
-### Задание 3
-![image](https://github.com/user-attachments/assets/854b9a76-1bdd-4b41-a4f6-88595270f42e)
-
-
-
+![image](https://github.com/user-attachments/assets/7fbd8f2f-37e5-4597-ae61-b58a1c278503)
 
