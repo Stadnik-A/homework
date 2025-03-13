@@ -2,7 +2,9 @@
 
 ### Задание 1
 Были найдены следующие открытые порты со службами:
+
 21/tcp    open  ftp         vsftpd 2.3.4 [ссылка на уязвимость](https://www.exploit-db.com/exploits/49757)
+
 22/tcp    open  ssh         OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)
 23/tcp    open  telnet      Linux telnetd
 25/tcp    open  smtp        Postfix smtpd
