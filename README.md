@@ -7,12 +7,12 @@
 
 22/tcp    open  ssh         OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)
 23/tcp    open  telnet      Linux telnetd
-25/tcp    open  smtp        Postfix smtpd
-53/tcp    open  domain      ISC BIND 9.4.2
+25/tcp    open  smtp        Postfix smtpd [ссылка на уязвимость](https://www.exploit-db.com/exploits/48185)
+53/tcp    open  domain      ISC BIND 9.4.2 [ссылка на уязвимость](https://www.exploit-db.com/exploits/37721)
 80/tcp    open  http        Apache httpd 2.2.8 ((Ubuntu) DAV/2)
 111/tcp   open  rpcbind     2 (RPC #100000)
-139/tcp   open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
-445/tcp   open  netbios-ssn Samba smbd 3.0.20-Debian (workgroup: WORKGROUP)
+139/tcp   open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP) [ссылка на уязвимость](https://www.exploit-db.com/exploits/42060)
+445/tcp   open  netbios-ssn Samba smbd 3.0.20-Debian (workgroup: WORKGROUP) [ссылка на уязвимость](https://www.exploit-db.com/exploits/42060)
 512/tcp   open  exec        netkit-rsh rexecd
 513/tcp   open  login       OpenBSD or Solaris rlogind
 514/tcp   open  shell       Netkit rshd
