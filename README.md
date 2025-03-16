@@ -34,10 +34,26 @@
 39302/tcp open  java-rmi    GNU Classpath grmiregistry  
 57629/tcp open  mountd      1-3 (RPC #100005)  
 
-### Задание 2
+### Задание 2  
+Для более удобного и краткого ответа я использовал фильтры на конкретные порты в Wireshark.  
 SYN — отправляет SYN-пакеты и анализирует ответы для определения открытых портов.  
+![image](https://github.com/user-attachments/assets/e43bbcc8-7715-403e-a5e3-c2ecc2fe9331)  
+В Wireshark видны SYN-пакеты от Nmap и ответы SYN-ACK от сервера на открытые порты.  
+![image](https://github.com/user-attachments/assets/c1423fb0-58b8-417f-af9f-24d3c5ae203f)  
+
 FIN — отправляет FIN-пакеты (используемые для завершения соединения) и анализирует ответы. Этот метод полезен для обхода некоторых типов брандмауэров.  
-Xmas — отправляет пакеты с установленными флагами FIN, PSH и URG (пакет "подсвечен", как рождественская ёлка). Этот метод также используется для обхода брандмауэров.  
+![image](https://github.com/user-attachments/assets/6400c0a5-ee75-4bdc-b9b7-4f0468527a72)  
+В Wireshark dидны FIN-пакеты от Nmap, ответы RST от сервера на закрытые порты и отсутствие ответа на открытые порты.  
+![image](https://github.com/user-attachments/assets/61f1a65a-3cc5-4ca6-8a74-787a610259b8)  
+
+Xmas — отправляет пакеты с установленными флагами FIN, PSH и URG. Этот метод также используется для обхода брандмауэров.  
+![image](https://github.com/user-attachments/assets/4f0e85fc-8164-408f-8509-da344b4f625d)  
+В Wireshark видны пакеты с флагами FIN, PSH и URG, а также ответы RST от сервера на закрытые порты, и отсутствие ответа на открытые порты.  
+![image](https://github.com/user-attachments/assets/a8c827d5-5209-4bf1-8804-20b05d09e197)  
+
 UDP — используется для поиска открытых UDP-портов. UDP-порты часто используются для DNS, DHCP, SNMP и других протоколов.  
+![image](https://github.com/user-attachments/assets/4b9a734d-9e20-4223-ace8-6c0f7fcb43fe)  
+В Wireshark видны UDP-пакеты от Nmap, ответы ICMP "Port Unreachable" на закрытые порты и отсутствие ответа или UDP-ответы на открытые порты.  
+![image](https://github.com/user-attachments/assets/e6a5fcc7-24ed-4a64-adf8-d50ba37b9891)  
 
 
